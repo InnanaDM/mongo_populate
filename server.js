@@ -22,7 +22,8 @@ var app = express();
 
 
 
-
+// ! I thought this would make it to where I can access site through local host 3030
+// ?why can't I connect to my port
 // Start the server
 app.listen(PORT, function() {
     console.log("App running on port " + PORT + "!");
